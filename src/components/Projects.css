@@ -20,8 +20,8 @@
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .5);
 }
 
 .project-header {
@@ -43,7 +43,7 @@
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform:none;
   letter-spacing: 0.5px;
 }
 

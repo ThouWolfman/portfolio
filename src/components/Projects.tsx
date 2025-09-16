@@ -15,34 +15,18 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-commerce Website",
-      description: "A full-stack e-commerce platform with user authentication and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      progress: 85,
-      status: "In Progress"
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates.",
-      technologies: ["React", "TypeScript", "Firebase"],
-      progress: 100,
-      status: "Completed"
-    },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts.",
-      technologies: ["React", "CSS3", "Weather API"],
-      progress: 60,
-      status: "In Progress"
-    },
-    {
-      id: 4,
       title: "Portfolio Website",
       description: "Personal portfolio website showcasing projects and skills.",
       technologies: ["React", "TypeScript", "CSS3"],
-      progress: 40,
+      progress: 20,
+      status: "Planning"
+    },
+    {
+      id: 2,
+      title: "Ice Cream locator",
+      description: "Passion project to locate up to date menus for different flavors",
+      technologies: ["React", "TypeScript", "CSS3"],
+      progress: 10,
       status: "Planning"
     }
   ];
